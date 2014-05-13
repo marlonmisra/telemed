@@ -1,3 +1,8 @@
+/* General */
+a:visited {
+	color: #f7f7f7;
+}
+
 /* header, logo, and items */
 #header {
     position: absolute;
@@ -31,7 +36,7 @@
 }
 
 .items {
-	position: absolute;
+	position: fixed;
 	right: 0px;
 	width: 200px;
     height: 45px;
@@ -42,9 +47,10 @@
 }
 
 #item_1, #item_2, #item_3 {
-	width:60px;
+	width: 60px;
 	padding-top: 11px;
     padding-bottom: 11px;
+    text-decoration: none;
 }
 
 #item_1:hover, #item_2:hover, #item_3:hover {
