@@ -1,6 +1,7 @@
 /* General */
-a:visited {
-	color: #f7f7f7;
+a {
+	color: #fff;
+	text-decoration: none;
 }
 
 /* header, logo, and items */
@@ -30,15 +31,10 @@ a:visited {
 	color: #fff;
 }
 
-
-.items > div {
-    display: inline-block;
-}
-
 .items {
 	position: fixed;
 	right: 0px;
-	width: 200px;
+	width: 180px;
     height: 45px;
     text-align: center;
     font-family: 'Calibri';
@@ -46,11 +42,11 @@ a:visited {
 	color: #f7f7f7;
 }
 
-#item_1, #item_2, #item_3 {
-	width: 60px;
-	padding-top: 11px;
+#item {
+	display: inline-block;
+    width: 57px;
+    padding-top: 11px;
     padding-bottom: 11px;
-    text-decoration: none;
 }
 
 #item_1:hover, #item_2:hover, #item_3:hover {
