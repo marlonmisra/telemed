@@ -1,0 +1,5 @@
+<% provide(:title, 'Log In') %>
+<br>
+<br>
+<h1>lalala</h1>
+<p></p>

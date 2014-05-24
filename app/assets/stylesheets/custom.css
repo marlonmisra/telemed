@@ -4,6 +4,10 @@ a {
 	text-decoration: none;
 }
 
+.other_links {
+    color: blue;
+}
+
 /* header, logo, and items */
 #header {
     position: absolute;
