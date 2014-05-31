@@ -13,14 +13,15 @@
 <div id="header">
 	<div id="logo", onclick="location.href='http://www.gmail.com';" style="cursor:pointer;"> Telemed </div>
 	<div class="items">
-		
 		<%= link_to root_path, id:"item" do %> Home <% end %>
 		<%= link_to about_path, id:"item" do %> About <% end %>
 		<%= link_to login_path, id:"item" do %> Log In <% end %>
 	</div>
 </div>
 
-<div id="footer"></div> 
+<div id="footer">
+	<%= debug(params) if Rails.env.development? %>
+</div> 
 
 <!-- body -->
 
